@@ -1,142 +1,383 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Design Portfolio Template</title>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<script type='text/javascript' src='http://vectorart.org/wp-content/themes/vector/images/jquery.js'></script> 
-
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>MARSHMALLOW MACHINE</title>
+	<link type="text/css" rel="stylesheet" href="style.css" media="all" />
+	<link type="text/css" rel="stylesheet" href="SyntaxHighlighter.css" media="all"></link>
+	<link type="text/css" rel="stylesheet" href="jquery.jscrollpane.css" media="all" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js"></script>
 </head>
 
 <body>
-
-
-<div id="top">
-	<div id="insidetop">
-        <h4>Drop Down Menu</h4>
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem 			   		ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporall</p>
-        
-        <h5><a href="#">Your Site Here</a></h5>
-        <h5><a href="#">Your Site Here</a></h5>
-        <h5><a href="#">Your Site Here</a></h5>
-        <h5><a href="#">Your Site Here</a></h5>
-        <h5><a href="#">Your Site Here</a></h5>
-        
-    </div><!--insidetop-->
-</div><!-- top -->
-
-<div id="topline">	
-	<div class="content">
-       <a><strong>YOUR SITE</strong> NETWORK</a>
-    </div>
-</div><!-- topline -->
-
-
-<div id="wrapper">
-
-    	<div class="content">
-    	
-             <div id="header">
+	<div id="wrapper">
+		<div class="content">
+        	<div id="header">
+	        	<h1><a href="http://www.msmc.jp"><span>MARSHMALLOW MACHINE</span>portfolio</a></h1>
+            	<div id="menu">
+					<ul>	
+               		    <li><a href="#works">works</a></li>
+                  	    <li><a href="#blog">blog</a></li>
+                      	<li><a href="#contact">contact</a></li>
+                    </ul>
+              	</div><!-- menu -->
+			</div><!--header-->
              
-                    <h1><a href="#"><span>your design</span>portfolio</a></h1>
-                    
-                     <div id="menu">
-                
-                        <ul>	
-                            <li><a href="#">home</a></li>
-                            <li class="selected"><a href="#">portfolio</a></li>
-                            <li><a href="#">blog</a></li>
-                            <li><a href="#">about</a></li>
-                            <li><a href="#">contact us</a></li>
-                        </ul>
-                    
-                	</div><!-- menu -->
-                
-             </div><!--header-->
-             
-               <div class="sidebar">
-             	
-                <a href="#"><img src="images/sidebar.jpg" alt="" border="0" /></a>
-                <a href="#"><img src="images/sidebar.jpg" alt="" border="0" /></a>
-                
-                
-                <a href="#"><img src="images/sidebarmini.jpg" alt="" border="0" /></a>
-                <a href="#"><img src="images/sidebarmini.jpg" alt="" border="0" class="noright"  /></a>
-                
-                <a href="#"><img src="images/sidebarmini.jpg" alt="" border="0" /></a>
-                <a href="#"><img src="images/sidebarmini.jpg" alt="" border="0" class="noright" /></a>
-                
-                <a href="#"><img src="images/sidebarmini.jpg" alt="" border="0" /></a>
-                <a href="#"><img src="images/sidebarmini.jpg" alt="" border="0" class="noright"  /></a>
-                
-
-             </div><!--sidebar-->
-             
-             <div id="container">
-             	
-             	<a href="#"><img src="images/box.jpg" alt="" border="0" /></a>
-                <a href="#"><img src="images/box.jpg" alt="" border="0"/></a>
-                
-                <a href="#"><img src="images/box.jpg" alt="" border="0" /></a>
-                <a href="#"><img src="images/box.jpg" alt="" border="0" /></a>
-                
-                <a href="#"><img src="images/box.jpg" alt="" border="0" /></a>
-                <a href="#"><img src="images/box.jpg" alt="" border="0"/></a>
-             	
-             </div><!--container-->                        
-                        	
+            <div id="container"> 	
+	   	    	<!-- works -->
+           		<div id="works" class="page">
+           			<div id="slider">
+           				<ul class="items">
+      						<li>
+      							<div class="work">
+	      							<div class="floatright">
+		      							<img src="images/lens.png"/>
+	    	  						</div>
+	      							<div class="jobtitle">表面検査 / Surface Inspection</div>
+      								<table>
+      									<tr><td>環境</td><td>Borland C++ Builder<br/>Microsoft Visual Studio</td></tr>
+      									<tr><td>言語</td><td>C++<br />C#</td></tr>
+      									<tr><td>技術</td><td>Spring.NET<br />db4o</td></tr>
+      								</table>
+      								<div class="description">
+							    		<p>
+							    		長瀬産業（株）社製の<a href="http://www.nagase-direct.jp/scantec/">SCANTEC</a>という
+							    		表面検査装置と連携するWindowsアプリケーションを開発しています。
+		     							表面検査装置には、検体を撮影するカメラが接続されています。
+		     							</p>
+		     							<p>
+		     							カメラから入力した映像を表面検査装置内で様々な画像処理を施し、欠陥を検出します。
+		     							</p>
+										<div class="image">
+			          						<img src="images/factory.png" />
+										</div>
+    	 								<ul>
+					    	    		 	<li>様々な品種に対応するために、品種ごとの条件を設定</li>
+    					    			  	<li>表面検査装置で検出した欠陥を、アプリケーションで受信／記録</li>
+          									<li>欠陥をマップや数値で表示したり、欠陥種別ごとに分類し品質の判定</li>
+          									<li>ディジタルI/Oやエンコーダ、PLCなどの外部機器の制御</li>
+          									<li>品質管理のための集計やレポートを出力</li>
+          									<li>検体上の実際の欠陥へマーキングやラベルなどの出力</li>
+          								</ul>
+          							</div>
+          						</div>
+      						</li>
+      						<li>
+      							<div class="work">
+	      							<div class="floatright">
+	      							<img src="images/cashbox.png"/>
+	      						</div>
+		      						<div class="jobtitle">POSレジ / Point Of Sales Register</div>
+      								<table>
+      									<tr><td>環境</td><td>Microsoft Visual Studio</td></tr>
+      									<tr><td>言語</td><td>C#</td></tr>
+      									<tr><td>技術</td><td>WPF<br />Spring.NET(DI)<br />db4o(ODBMS)<br />WCF</td></tr>
+      								</table>
+      								<div class="description">
+							  		  <p>飲食店や小売店で使用するPOSレジのソフトウェアを開発しました。
+     									小規模店舗をターゲットとし、シンプルで使いやすいレジを目標としました。</p>
+										<div class="image">
+			          						<img src="images/bar.png" />
+										</div>
+										<ul>
+    	 									<li>シンプルで使いやすいインタフェース</li>
+					         				<li>基本的なレジ機能</li>
+							    	    	<li>iPod Touchで、注文を登録</li>
+         									<li>受けた注文をキッチンに出力</li>
+         									<li>売上の集計結果をグラフで表示</li>
+          								</ul>
+          							</div>
+          						</div>
+      						</li>
+      						<li>
+      							<div class="work">
+	      							<div class="floatright">
+		      							<img src="images/order.png"/>
+	    	  						</div>
+	      							<div class="jobtitle">オーダリング / Ordering</div>
+      								<table>
+      									<tr><td>環境</td><td>Xcode</td></tr>
+      									<tr><td>言語</td><td>Objective-C</td></tr>
+      									<tr><td>技術</td><td>ObjectiveResource<br />REST</td></tr>
+      								</table>
+      								<div class="description">
+									    <p> 飲食店の従業員のためのアプリを開発しました。POSレジと連動して精算まで可能です。</p>
+										<div class="image">
+			          						<img src="images/table.png" />
+										</div>
+    	 								<ul>
+							        		<li>テーブルと人数を入力して、注文を登録</li>
+							        		<li>商品のカテゴリごとに分類されているので、素早い登録が可能</li>
+							        		<li>注文送信後、すぐに厨房のキッチンプリンタに印字</li>
+							   	    	 	<li>追加注文や取消注文も可能</li>
+          									<li>セットドリンクやトッピングなどの細かなオーダーも</li>
+          									<li>同じテーブルの相席も管理</li>
+          								</ul>
+          							</div>
+          						</div>
+      						</li>
+      						<li>
+      							<div class="work">
+	      							<div class="floatright">
+		      							<img src="images/scissors.png"/>
+	    	  						</div>
+	      							<div class="jobtitle">カルテ&予約 / Karte&Reservation</div>
+      								<table>
+      									<tr><td>環境</td><td>Xcode</td></tr>
+      									<tr><td>言語</td><td>Objective-C</td></tr>
+      									<tr><td>技術</td><td>ObjectiveResource<br />REST</td></tr>
+      								</table>
+      								<div class="description">
+									    <p>ヘアサロンのスタイリストのためのアプリを開発しました。</p>
+										<div class="image">
+			          						<img src="images/hairsalon.png" />
+										</div>
+    	 								<ul>
+							        		<li>スタイリストの予約状況を確認できます</li>
+							        		<li>お客様の情報を確認できます</li>
+							        		<li>注文送信後、すぐに厨房のキッチンプリンタに印字</li>
+							   	    	 	<li>お客様のカルテを確認できます</li>
+          								</ul>
+          							</div>
+          						</div>
+      						</li>
+      						<li>
+      							<div class="work">
+	      							<div class="floatright">
+		      							<img src="images/headphone.png"/>
+	    	  						</div>
+	      							<div class="jobtitle">podcastプレーヤー/ podcast player</div>
+      								<table>
+      									<tr><td>環境</td><td>Titanium Mobile</td></tr>
+      									<tr><td>言語</td><td>JavaScript</td></tr>
+      									<tr><td>技術</td><td>AJAX<br />YQL<br />DB<br />モジュール<br /></td></tr>
+      								</table>
+      								<div class="description">
+									    <p>英語学習サポートのためのアプリを開発しました。podcastのフィードから音声を再生します。</p>
+										<div class="image">
+			          						<img src="images/mixer.png" />
+										</div>
+    	 								<ul>
+						          			<li>podcastのフィードを管理します</li>
+						          			<li>podcastをストリーミング再生します</li>
+ 								         	<li>再生中に辞書を引けます</li>
+									        <li>再生中にメモを記録できます</li>
+									        <li>記録したメモを再生時に表示します</li>
+          								</ul>
+          							</div>
+          						</div>
+      						</li>
+      						<li>
+      							<div class="work">
+	      							<div class="floatright">
+		      							<img src="images/truck.png"/>
+	    	  						</div>
+	      							<div class="jobtitle">動態管理 / Delivery Management</div>
+      								<table>
+      									<tr><td>環境</td><td>Titanium Mobile</td></tr>
+      									<tr><td>言語</td><td>JavaScript</td></tr>
+      									<tr><td>技術</td><td>AJAX<br />GPS</td></tr>
+      								</table>
+      								<div class="description">
+									    <p>運送業者のトラック運転手のためのアプリを開発しました。センターで運送状況を把握することができます。</p>
+										<div class="image">
+			          						<img src="images/transport.png" />
+										</div>
+    	 								<ul>
+						          			<li>運送指示を取得して表示します</li>
+						          			<li>積載の状況を登録します</li>
+ 								         	<li>作業の状況を登録します</li>
+									        <li>トラックの走行履歴を登録します</li>
+          								</ul>
+          							</div>
+          						</div>
+      						</li>
+           				</ul>
+						<ul class="indexes"></ul>
+           			</div>
+            	</div>
+				<!-- blog -->           	
+            	<div id="blog" class="page">
+            		<div>
+	           			<img class="prev" src="images/prev.png" />
+    	       			<div class="entries">
+			            	<ul></ul>
+           				</div>
+	    	        	<img  class="next" src="images/next.png" />
+           			</div>
+					<ul class="indexes"></ul>
+					<div class="title"></div>
+            	</div>
+		        <!-- contact -->
+		        <div id="contact" class="page">
+		        	<ul>
+		        		<li><a href="http://twitter.com/atsusy" target="_blank"><img src="images/twitter.png" alt="Twitter"/></a></li>
+		        		<li><a href="http://ja-jp.facebook.com/people/Atsushi-Kataoka/100000710281036" target="_blank"><img src="images/facebook.png" alt="Facebook"/></a></li>
+		        		<li><a href="mailto:atsushi.kataoka@msmc.jp"><img src="images/mail.png" alt="Mail"/></a></li>
+		        	</ul>
+		        </div>
+            </table><!--container-->                                    	
         </div><!--content-->
-        
     </div><!--wrapper-->
     
-<div id="footer">
-    	<div class="content">
-        		
-                 <div class="sidebar">
-                   
-                   		<a href="#"><img src="images/footerbox.png" alt="" border="0" /></a>
-                        <a href="#"><img src="images/footerbox.png" alt="" border="0" class="noright" /></a>
-                   
-                   </div><!--sidebar-->
-               <div id="left">
-            	<h3>SPONSORSHIP FRIENDS</h3>
-                    <p><a href="#">Website Templates</a></p>
-                    <p><a href="#">Website Builder</a></p>
-                    <p><a href="#">Web design</a></p>
-                    <p><a href="#">Powerpoint Templates</a></p>
-                    <p><a href="#">Hosting Reseller</a></p>
-                    <p><a href="#">Dedicated Server Hosting</a></p>
-                 </div><!--left-->   
-                 
-                 <div id="right">   
-                 <h3>OUR RESOURCE SITES</h3>
-                    <p><a href="#">Branding and Identity </a></p>
-                    <p><a href="#">Nature Based CSS Gallery </a></p>
-                    <p><a href="#">Free Vector Illustrations</a></p>
-                    <p><a href="#">Organic Web Design</a></p>
-                    <p><a href="#">Web Design</a></p>
-                    <p><a href="#">West Coast Clothing Co</a></p>
-                   </div><!--right-->
-                   
-                   <a href="#"><span class="leftp">copyright 2010 your comapny name</span></a>
-                  
-                   <a href="http://vectorart.org"><span class="rightp"> Thanks to VectorArt</span></a>
-                   
-                   
-                 </div><!--content-->
-                        
-</div><!--footer-->    
-    
-<script type='text/javascript'>
-$(document).ready(function(){
+	<div id="footer">
+		<div class="content">
+        	<div class="copyright">
+        		Copyright &copy; 2011 MARSHMALLOW MACHINE. All rights reserved.
+        	</div>
+		</div><!--content-->           
+	</div><!--footer-->    
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+	<script type="text/javascript" src="js/jquery.hashslider.js"></script>
+	<script language="javascript" src="js/shCore.js"></script>
+	<script language="javascript" src="js/shBrushCSharp.js"></script>
+	<script language="javascript" src="js/shBrushXml.js"></script>
+	<script language="javascript" src="js/shBrushJScript.js"></script>
+	<script language="javascript" src="js/shBrushCpp.js"></script>
+	<script language="javascript" src="js/shBrushCSharp.js"></script>
+	<script language="javascript" src="js/shBrushPython.js"></script>
+	<script type="text/javascript">
+    	function suppress(value, digits) {
+    		return ("0"*digits+value.toString()).slice(-digits);
+    	}
+		
+		function getDateStr(d) {
+		    var year = d.getYear();
+    		if(year<1000){
+    			year+=1900;
+    		}
+    		var dateStr = year+"-"+suppress(d.getMonth(),2)+"-"+suppress(d.getDate(),2);
+    		return dateStr;
+    	}
+    	
+    	function buildBlogEntryElement(entry) {
+		    var title = entry.title.$t;
+		    var published = entry.published.$t.substring(0, 10);
+		    var content = entry.content.$t;
+		    var href = entry.link[entry.link.length-1].href;
+		    // replace <br /> to \n within pre tag.
+		    content = content.replace(/(\<pre.*?\>.+?\<\/pre\>)/g, function(){
+		    	return RegExp.$1.replace(/\<br \/\>/g, "\n");
+		    });
+    		var html  = "<li>";
+    			html += "	<div class=\"entry\">";
+	    		html += "		<span class=\"title\"><a href=\""+href+"\">"+title+"</a></span><br />";
+	    		html += "		<span class=\"published\">"+published+"</span><br /><br />";
+	    		html += "		<div class=\"body\"><div><p>"+content+"</p></div></div>";
+				html += "	</div>";
+				html += "</li>";
+			return html;
+    	}
+    	
+		$(function(){
+	    	var cur_menu;
+	
+			/* build menu navigation */
+			$("#menu li:first").addClass("selected");
+			cur_menu = $("#container .page:first");			
 
-	$("div#topline a").click(function(){
-	  $("#top").slideToggle("slow");
-	  $(this).toggleClass("active");
-	});		
+			$("#menu li").bind("click",function(e){
+		  		$("#menu li").removeClass("selected");
+	  			$(this).addClass("selected");
+ 		  		
+	 		  	var href = $(this).children("a").attr("href");
 
-});		
-</script>    
+				cur_menu.fadeOut("fast");
+ 				cur_menu = $(href);
+ 				cur_menu.fadeIn("fast");
+ 				
+ 				// ignore scrolling
+ 		  		e.preventDefault();
+ 		  	});
+ 		  	
+ 		  	$(".work .description").jScrollPane(); 	
+
+ 		  	/* append blog entry */
+			var blog_elem = $("#blog .entries>ul");
+    		var blog_url = "http://atsusy.blogspot.com/feeds/posts/default?alt=json-in-script&callback=?";
+ 			
+ 			$.getJSON(blog_url, function(data){
+				for(var i = 0; i < data.feed.entry.length; i++){
+				    blog_elem.append(buildBlogEntryElement(data.feed.entry[i]));
+				    $("#blog>ul.indexes").append("<li></li>");
+				}
+				$('#blog>ul.indexes>li:first-child').addClass('active');
+				
+		    	/* build code syntax */
+				dp.SyntaxHighlighter.ClipboardSwf = "flash/clipboard.swf";
+	 			dp.SyntaxHighlighter.HighlightAll("code"); 		
+ 				
+ 				/* build blog slider */
+ 				var entryWidth = $("#blog .entries").width();
+ 				var entryCount = $("#blog .entry").size();
+ 				var entryIndex = 0;
+ 				 
+ 				function entryIndexChanged() {
+ 					if(entryIndex == 0){
+ 						$("#blog .prev").animate({ opacity:0 });
+ 						if(entryCount > 1){
+ 							$("#blog .next").animate({ opacity:1 });
+ 						}
+	 				}
+	 				else if(entryIndex == entryCount - 1){
+ 						$("#blog .next").animate({ opacity:0 });
+ 						if(entryCount > 1){
+ 							$("#blog .prev").animate({ opacity:1 });
+ 						}
+	 				}
+	 				else if(entryCount > 1){
+						$("#blog .next").animate({ opacity:1 });
+						$("#blog .prev").animate({ opacity:1 });
+	 				}
+	 				
+	 				$("#blog>ul.indexes>li").removeClass("active");
+	 				$("#blog>ul.indexes>li:nth-child("+(entryIndex+1)+")").addClass('active');
+ 				}
+ 				entryIndexChanged();
+ 				
+ 				$("#blog .entries>ul").css("width", entryWidth * entryCount);				
+ 				$("#blog .entries>li").css("width", entryWidth);	
+ 				
+ 				$("#blog .prev").bind("click",function(e){
+ 					if(entryIndex > 0){
+	 					entryIndex = entryInde - 1;
+	 					entryIndexChanged();
+						$('#blog .entries>ul').animate({ left: '+='+entryWidth }, 400, 'swing');
+ 					}
+ 				});
+ 				
+ 				$("#blog .next").bind("click",function(e){
+ 					if(entryIndex < entryCount - 1){
+	 					entryIndex++;
+	 					entryIndexChanged();
+						$('#blog .entries>ul').animate({ left: '-='+entryWidth }, 400, 'swing');
+ 					}
+ 				});
+ 				
+ 				$("#blog>ul.indexes>li").bind("click",function(e){
+					entryIndex = $(this).index();
+					$('#blog .entries>ul').animate({ left: entryIndex * -entryWidth }, 400, 'swing');
+					entryIndexChanged();
+ 				});
+ 				
+ 				$("#blog>ul.indexes>li").bind("mouseenter",function(e){
+					$("#blog>.title").stop(true, true); 					
+ 					$("#blog>.title").animate({ opacity : 1.0 });
+ 					
+ 					var nth = $(this).index() + 1;
+ 					var title = $("#blog .entries>ul>li:nth-child("+nth+")>div>.title")[0];
+	 				$("#blog>.title").text(title.innerText);
+ 				});
+ 				$("#blog>ul.indexes>li").bind("mouseout",function(e){
+ 					$("#blog>.title").animate({ opacity : 0.0 });
+ 				});
+ 				
+ 				$("#blog .body").jScrollPane();
+			}); 			
+		});
+	</script>
 </body>
 </html>
