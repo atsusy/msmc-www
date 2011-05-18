@@ -343,7 +343,7 @@
  				
  				$("#blog .prev").bind("click",function(e){
  					if(entryIndex > 0){
-	 					entryIndex = entryInde - 1;
+	 					entryIndex = entryIndex - 1;
 	 					entryIndexChanged();
 						$('#blog .entries>ul').animate({ left: '+='+entryWidth }, 400, 'swing');
  					}
@@ -351,7 +351,7 @@
  				
  				$("#blog .next").bind("click",function(e){
  					if(entryIndex < entryCount - 1){
-	 					entryIndex++;
+	 					entryIndex = entryIndex + 1;
 	 					entryIndexChanged();
 						$('#blog .entries>ul').animate({ left: '-='+entryWidth }, 400, 'swing');
  					}
