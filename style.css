@@ -212,6 +212,7 @@ a:hover {
 	padding-left:5px;
 	padding-right:5px;
 	background:url(images/dotnonactive.png) center bottom no-repeat;
+	cursor:pointer;
 }
 
 #slider>.indexes .active {
@@ -316,14 +317,15 @@ a:hover {
 	color:#884422;
 }
 
+#blog .next,.prev {
+	vertical-align:middle;
+	cursor:pointer;
+}
+
 #blog .entries { 
 	width:700px;
 	overflow:hidden;
 	display:inline-block;
-	vertical-align:middle;
-}
-
-#blog .next,.prev {
 	vertical-align:middle;
 }
 
@@ -348,6 +350,7 @@ a:hover {
 	padding-left:5px;
 	padding-right:5px;
 	background:url(images/dotnonactive.png) center bottom no-repeat;
+	cursor:pointer;
 }
 
 #blog>.indexes .active {
