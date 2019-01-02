@@ -1,383 +1,805 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>MARSHMALLOW MACHINE</title>
-	<link type="text/css" rel="stylesheet" href="style.css" media="all" />
-	<link type="text/css" rel="stylesheet" href="SyntaxHighlighter.css" media="all"></link>
-	<link type="text/css" rel="stylesheet" href="jquery.jscrollpane.css" media="all" />
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js"></script>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<body>
-	<div id="wrapper">
-		<div class="content">
-        	<div id="header">
-	        	<h1><a href="http://www.msmc.jp"><span>MARSHMALLOW MACHINE</span>portfolio</a></h1>
-            	<div id="menu">
-					<ul>	
-               		    <li><a href="#works">works</a></li>
-                  	    <li><a href="#blog">blog</a></li>
-                      	<li><a href="#contact">contact</a></li>
+    <title>Vanilla - Bootstrap 4 Business Template</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" >
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" >
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+  </head>
+  <body>
+
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+            <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mr-auto w-100 justify-content-left clearfix">
+              <li class="nav-item active">
+                <a class="nav-link" href="#hero-area">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">
+                  Services
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#feature">
+                  feature
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">
+                  Team
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">
+                  Testimonial
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">
+                  Pricing
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+            <div class="btn-sing float-right">
+              <a class="btn btn-border" href="#feature">FAQ</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="mobile-menu navbar-nav">
+          <li>
+            <a class="page-scroll" href="#hero-area">
+              Home
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#services">
+              Services
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#feature">
+              feature
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#team">
+              Team
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#testimonial">
+              Testimonial
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#pricing">
+              Pricing
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <!-- Mobile Menu End -->
+
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Hero Area Start -->
+      <div id="hero-area" class="hero-area-bg">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <div class="contents text-center">
+                <h2 class="head-title wow fadeInUp">Super Simple Bootstrap HTML5 Template<br> For Business, SaaS and Apps</h2>
+                <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
+                  <a href="#" class="btn btn-common">Download Now</a>
+                </div>
+              </div>
+              <div class="img-thumb text-center wow fadeInUp" data-wow-delay="0.6s">
+                <img class="img-fluid" src="assets/img/hero-1.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hero Area End -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+
+    <!-- Services Section Start -->
+    <section id="services" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Our Services</h2>
+        </div>
+        <div class="row">
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="lni-cog"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Web Development</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.6s">
+              <div class="icon">
+                <i class="lni-bar-chart"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Graphic Design</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.9s">
+              <div class="icon">
+                <i class="lni-briefcase"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Business Branding</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="1.2s">
+              <div class="icon">
+                <i class="lni-pencil-alt"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Content Writing</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="1.5s">
+              <div class="icon">
+                <i class="lni-mobile"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">App Development</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="1.8s">
+              <div class="icon">
+                <i class="lni-layers"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Digital Marketing</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+
+    <!-- Feature Section Start -->
+    <div id="feature">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="text-wrapper">
+              <div>
+                <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">Learn More About Us</h2>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="features-box wow fadeInLeft" data-wow-delay="0.3s">
+                      <div class="features-icon">
+                        <i class="lni-layers"></i>
+                      </div>
+                      <div class="features-content">
+                        <h4>
+                          Bootstrap 4
+                        </h4>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint. 
+                        </p>
+                      </div>
+                    </div>
+                  </div> 
+                  <div class="col-md-6 col-sm-6">
+                    <div class="features-box wow fadeInLeft" data-wow-delay="0.6s">
+                      <div class="features-icon">
+                        <i class="lni-briefcase"></i>
+                      </div>
+                      <div class="features-content">
+                        <h4>
+                          100% Free
+                        </h4>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint. 
+                        </p>
+                      </div>
+                    </div>
+                  </div>           
+                  <div class="col-md-6 col-sm-6">
+                    <div class="features-box wow fadeInLeft" data-wow-delay="0.9s">
+                      <div class="features-icon">
+                       <i class="lni-cog"></i>
+                      </div>
+                      <div class="features-content">
+                        <h4>
+                          Responsive
+                        </h4>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint. 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <div class="features-box wow fadeInLeft" data-wow-delay="1.2s">
+                      <div class="features-icon">
+                        <i class="lni-leaf"></i>
+                      </div>
+                      <div class="features-content">
+                        <h4>
+                          Easy to Use
+                        </h4>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam tempora quidem vel sint. 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
+            <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
+              <img src="assets/img/feature/img-1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Feature Section End -->
+
+    <!-- Team Section Start -->
+    <section id="team" class="section-padding text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-header text-center">
+              <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Our Team</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item text-center">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/team-01.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
                     </ul>
-              	</div><!-- menu -->
-			</div><!--header-->
-             
-            <div id="container"> 	
-	   	    	<!-- works -->
-           		<div id="works" class="page">
-           			<div id="slider">
-           				<ul class="items">
-      						<li>
-      							<div class="work">
-	      							<div class="floatright">
-		      							<img src="images/lens.png"/>
-	    	  						</div>
-	      							<div class="jobtitle">表面検査 / Surface Inspection</div>
-      								<table>
-      									<tr><td>環境</td><td>Borland C++ Builder<br/>Microsoft Visual Studio</td></tr>
-      									<tr><td>言語</td><td>C++<br />C#</td></tr>
-      									<tr><td>技術</td><td>Spring.NET<br />db4o</td></tr>
-      								</table>
-      								<div class="description">
-							    		<p>
-							    		長瀬産業（株）社製の<a href="http://www.nagase-direct.jp/scantec/">SCANTEC</a>という
-							    		表面検査装置と連携するWindowsアプリケーションを開発しています。
-		     							表面検査装置には、検体を撮影するカメラが接続されています。
-		     							</p>
-		     							<p>
-		     							カメラから入力した映像を表面検査装置内で様々な画像処理を施し、欠陥を検出します。
-		     							</p>
-										<div class="image">
-			          						<img src="images/factory.png" />
-										</div>
-    	 								<ul>
-					    	    		 	<li>様々な品種に対応するために、品種ごとの条件を設定</li>
-    					    			  	<li>表面検査装置で検出した欠陥を、アプリケーションで受信／記録</li>
-          									<li>欠陥をマップや数値で表示したり、欠陥種別ごとに分類し品質の判定</li>
-          									<li>ディジタルI/Oやエンコーダ、PLCなどの外部機器の制御</li>
-          									<li>品質管理のための集計やレポートを出力</li>
-          									<li>検体上の実際の欠陥へマーキングやラベルなどの出力</li>
-          								</ul>
-          							</div>
-          						</div>
-      						</li>
-      						<li>
-      							<div class="work">
-	      							<div class="floatright">
-	      							<img src="images/cashbox.png"/>
-	      						</div>
-		      						<div class="jobtitle">POSレジ / Point Of Sales Register</div>
-      								<table>
-      									<tr><td>環境</td><td>Microsoft Visual Studio</td></tr>
-      									<tr><td>言語</td><td>C#</td></tr>
-      									<tr><td>技術</td><td>WPF<br />Spring.NET(DI)<br />db4o(ODBMS)<br />WCF</td></tr>
-      								</table>
-      								<div class="description">
-							  		  <p>飲食店や小売店で使用するPOSレジのソフトウェアを開発しました。
-     									小規模店舗をターゲットとし、シンプルで使いやすいレジを目標としました。</p>
-										<div class="image">
-			          						<img src="images/bar.png" />
-										</div>
-										<ul>
-    	 									<li>シンプルで使いやすいインタフェース</li>
-					         				<li>基本的なレジ機能</li>
-							    	    	<li>iPod Touchで、注文を登録</li>
-         									<li>受けた注文をキッチンに出力</li>
-         									<li>売上の集計結果をグラフで表示</li>
-          								</ul>
-          							</div>
-          						</div>
-      						</li>
-      						<li>
-      							<div class="work">
-	      							<div class="floatright">
-		      							<img src="images/order.png"/>
-	    	  						</div>
-	      							<div class="jobtitle">オーダリング / Ordering</div>
-      								<table>
-      									<tr><td>環境</td><td>Xcode</td></tr>
-      									<tr><td>言語</td><td>Objective-C</td></tr>
-      									<tr><td>技術</td><td>ObjectiveResource<br />REST</td></tr>
-      								</table>
-      								<div class="description">
-									    <p> 飲食店の従業員のためのアプリを開発しました。POSレジと連動して精算まで可能です。</p>
-										<div class="image">
-			          						<img src="images/table.png" />
-										</div>
-    	 								<ul>
-							        		<li>テーブルと人数を入力して、注文を登録</li>
-							        		<li>商品のカテゴリごとに分類されているので、素早い登録が可能</li>
-							        		<li>注文送信後、すぐに厨房のキッチンプリンタに印字</li>
-							   	    	 	<li>追加注文や取消注文も可能</li>
-          									<li>セットドリンクやトッピングなどの細かなオーダーも</li>
-          									<li>同じテーブルの相席も管理</li>
-          								</ul>
-          							</div>
-          						</div>
-      						</li>
-      						<li>
-      							<div class="work">
-	      							<div class="floatright">
-		      							<img src="images/scissors.png"/>
-	    	  						</div>
-	      							<div class="jobtitle">カルテ&予約 / Karte&Reservation</div>
-      								<table>
-      									<tr><td>環境</td><td>Xcode</td></tr>
-      									<tr><td>言語</td><td>Objective-C</td></tr>
-      									<tr><td>技術</td><td>ObjectiveResource<br />REST</td></tr>
-      								</table>
-      								<div class="description">
-									    <p>ヘアサロンのスタイリストのためのアプリを開発しました。</p>
-										<div class="image">
-			          						<img src="images/hairsalon.png" />
-										</div>
-    	 								<ul>
-							        		<li>スタイリストの予約状況を確認できます</li>
-							        		<li>お客様の情報を確認できます</li>
-							        		<li>注文送信後、すぐに厨房のキッチンプリンタに印字</li>
-							   	    	 	<li>お客様のカルテを確認できます</li>
-          								</ul>
-          							</div>
-          						</div>
-      						</li>
-      						<li>
-      							<div class="work">
-	      							<div class="floatright">
-		      							<img src="images/headphone.png"/>
-	    	  						</div>
-	      							<div class="jobtitle">podcastプレーヤー/ podcast player</div>
-      								<table>
-      									<tr><td>環境</td><td>Titanium Mobile</td></tr>
-      									<tr><td>言語</td><td>JavaScript</td></tr>
-      									<tr><td>技術</td><td>AJAX<br />YQL<br />DB<br />モジュール<br /></td></tr>
-      								</table>
-      								<div class="description">
-									    <p>英語学習サポートのためのアプリを開発しました。podcastのフィードから音声を再生します。</p>
-										<div class="image">
-			          						<img src="images/mixer.png" />
-										</div>
-    	 								<ul>
-						          			<li>podcastのフィードを管理します</li>
-						          			<li>podcastをストリーミング再生します</li>
- 								         	<li>再生中に辞書を引けます</li>
-									        <li>再生中にメモを記録できます</li>
-									        <li>記録したメモを再生時に表示します</li>
-          								</ul>
-          							</div>
-          						</div>
-      						</li>
-      						<li>
-      							<div class="work">
-	      							<div class="floatright">
-		      							<img src="images/truck.png"/>
-	    	  						</div>
-	      							<div class="jobtitle">動態管理 / Delivery Management</div>
-      								<table>
-      									<tr><td>環境</td><td>Titanium Mobile</td></tr>
-      									<tr><td>言語</td><td>JavaScript</td></tr>
-      									<tr><td>技術</td><td>AJAX<br />GPS</td></tr>
-      								</table>
-      								<div class="description">
-									    <p>運送業者のトラック運転手のためのアプリを開発しました。センターで運送状況を把握することができます。</p>
-										<div class="image">
-			          						<img src="images/transport.png" />
-										</div>
-    	 								<ul>
-						          			<li>運送指示を取得して表示します</li>
-						          			<li>積載の状況を登録します</li>
- 								         	<li>作業の状況を登録します</li>
-									        <li>トラックの走行履歴を登録します</li>
-          								</ul>
-          							</div>
-          						</div>
-      						</li>
-           				</ul>
-						<ul class="indexes"></ul>
-           			</div>
-            	</div>
-				<!-- blog -->           	
-            	<div id="blog" class="page">
-            		<div>
-	           			<img class="prev" src="images/prev.png" />
-    	       			<div class="entries">
-			            	<ul></ul>
-           				</div>
-	    	        	<img  class="next" src="images/next.png" />
-           			</div>
-					<ul class="indexes"></ul>
-					<div class="title"></div>
-            	</div>
-		        <!-- contact -->
-		        <div id="contact" class="page">
-		        	<ul>
-		        		<li><a href="http://twitter.com/atsusy" target="_blank"><img src="images/twitter.png" alt="Twitter"/></a></li>
-		        		<li><a href="http://ja-jp.facebook.com/people/Atsushi-Kataoka/100000710281036" target="_blank"><img src="images/facebook.png" alt="Facebook"/></a></li>
-		        		<li><a href="mailto:atsushi.kataoka@msmc.jp"><img src="images/mail.png" alt="Mail"/></a></li>
-		        	</ul>
-		        </div>
-            </table><!--container-->                                    	
-        </div><!--content-->
-    </div><!--wrapper-->
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="#">Rafael Basilla</a></h3>
+                <p>Front-end Developer, Dropbox</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item text-center">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/team-02.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="#">Renee Fleck</a></h3>
+                <p>Product Designer, Tesla</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item text-center">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/team-03.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="#">Paul Kowalsy</a></h3>
+                <p>Lead Designer, TNW</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Clients Section Start -->
+    <div id="clients" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">As Seen On</h2>
+        </div>
+        <div class="row text-align-">
+          <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="client-item-wrapper">
+              <img class="img-fluid" src="assets/img/clients/img1.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="client-item-wrapper">
+              <img class="img-fluid" src="assets/img/clients/img2.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="0.9s">
+            <div class="client-item-wrapper">
+              <img class="img-fluid" src="assets/img/clients/img3.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="1.2s">
+            <div class="client-item-wrapper">
+              <img class="img-fluid"  src="assets/img/clients/img4.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Clients Section End -->
+
+    <!-- Testimonial Section Start -->
+    <section id="testimonial" class="testimonial section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+            <div id="testimonials" class="owl-carousel wow fadeInUp" data-wow-delay="1.2s">
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="content">
+                    <p class="description">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly empower leveraged ROI whereas effective web-readiness. </p>
+                  </div>
+                  <div class="img-thumb">
+                    <img src="assets/img/testimonial/img1.jpg" alt="">
+                  </div>
+                  <div class="info">
+                    <h2><a href="#">Grenchen Pearce</a></h2>
+                    <h3><a href="#">Boston Brothers co.</a></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="content">
+                    <p class="description">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly empower leveraged ROI whereas effective web-readiness. </p>
+                  </div>
+                  <div class="img-thumb">
+                    <img src="assets/img/testimonial/img2.jpg" alt="">
+                  </div>
+                  <div class="info">
+                    <h2><a href="#">Domeni GEsson</a></h2>
+                    <h3><a href="#">Awesome Technology co.</a></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="content">
+                    <p class="description">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly empower leveraged ROI whereas effective web-readiness. </p>
+                  </div>
+                  <div class="img-thumb">
+                    <img src="assets/img/testimonial/img3.jpg" alt="">
+                  </div>
+                  <div class="info">
+                    <h2><a href="#">Dommini Albert</a></h2>
+                    <h3><a href="#">Nesnal Design co.</a></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="content">
+                    <p class="description">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly empower leveraged ROI whereas effective web-readiness. </p>
+                  </div>
+                  <div class="img-thumb">
+                    <img src="assets/img/testimonial/img4.png" alt="">
+                  </div>
+                  <div class="info">
+                    <h2><a href="#">Fernanda Anaya</a></h2>
+                    <h3><a href="#">Developer</a></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="content">
+                    <p class="description">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly empower leveraged ROI whereas effective web-readiness. </p>
+                  </div>
+                  <div class="img-thumb">
+                    <img src="assets/img/testimonial/img5.png" alt="">
+                  </div>
+                  <div class="info">
+                    <h2><a href="#">Jason A.</a></h2>
+                    <h3><a href="#">Designer</a></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial Section End -->  
+
+    <!-- Pricing section Start --> 
+    <section id="pricing" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="table wow fadeInLeft" data-wow-delay="1.2s">
+              <div class="title">
+                <h3>Basic</h3>
+              </div>
+              <div class="pricing-header">
+                <p class="price-value">$12.90<span>/ Month</span></p>
+              </div>
+              <ul class="description">
+                <li>Up to 5 projects </li>
+                <li>Up to 10 collabrators</li>
+                <li>2gb of storage</li>
+              </ul>
+              <button class="btn btn-common">Get It</button>
+            </div> 
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12 active">
+            <div class="table wow fadeInUp" id="active-tb" data-wow-delay="1.2s">
+              <div class="title">
+                <h3>Profesional</h3>
+              </div>
+               <div class="pricing-header">
+                  <p class="price-value">$49.90<span>/ Month</span></p>
+               </div>
+              <ul class="description">   
+                <li>Up to 10 projects</li>
+                <li>Up to 20 collabrators</li>
+                <li>10gb of storage</li>
+                <li>Real-time collabration</li>
+              </ul>
+              <button class="btn btn-common">Get It</button>
+           </div> 
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="table wow fadeInRight" data-wow-delay="1.2s">
+              <div class="title">
+                <h3>Expert</h3>
+              </div>
+               <div class="pricing-header">
+                  <p class="price-value">$89.90<span>/ Month</span></p>
+               </div>
+              <ul class="description">
+                <li>unlimited projects </li>
+                <li>Unlimited collabrators</li>
+                <li>Unlimited of storage</li>
+                <li>Real-time collabration</li>
+                <li>24x7 Support</li>
+              </ul>
+              <button class="btn btn-common">Get It</button>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing Table Section End -->
+
+    <!-- Owl Slider Section Start -->
+    <section class="sloder-img section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="slider-center slider">
+              <div>
+                <img class="img-fluid" src="assets/img/slide/img1.jpg" alt="">
+              </div>
+              <div>
+                <img class="img-fluid" src="assets/img/slide/img2.jpg" alt="">
+              </div>
+              <div>
+                <img class="img-fluid" src="assets/img/slide/img3.jpg" alt="">
+              </div>
+              <div>
+                <img class="img-fluid" src="assets/img/slide/img4.jpg" alt="">
+              </div>
+              <div>
+                <img class="img-fluid" src="assets/img/slide/img5.jpg" alt="">
+              </div>
+              <div>
+                <img  class="img-fluid" src="assets/img/slide/img6.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Owl Slider Section End -->  
+
+    <!-- Subscribe Section Start -->
+    <section id="Subscribes" class="subscribes section-padding">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-md-10 col-lg-5">
+            <h4 class="wow fadeInUp" data-wow-delay="0.3s">Start For Free</h4>
+            <p class="wow fadeInUp" data-wow-delay="0.6s">Existing customized ideas through client-based deliverables. <br> Compellingly unleash fully tested outsourcing</p>
+            <form for="">
+              <div class="subscribe wow fadeInDown" data-wow-delay="0.3s">
+                <input type="Email" class="form-control" name="email" placeholder="Email Address">
+                <button class="btn-submit" type="submit"><i class="lni-arrow-right"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Subscribe Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="section-padding">    
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-header text-center">
+              <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Contact</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">          
+          <div class="col-md-6 col-lg-6 col-sm-12">
+            <div class="contact-block">
+              <h2>Contact Form</h2>
+              <form id="contactForm">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
+                      <div class="help-block with-errors"></div>
+                    </div>                                 
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" placeholder="Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
+                      <div class="help-block with-errors"></div>
+                    </div> 
+                  </div>
+                   <div class="col-md-12">
+                    <div class="form-group">
+                      <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
+                      <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group"> 
+                      <textarea class="form-control" id="message" placeholder="Your Message" rows="5" data-error="Write your message" required></textarea>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="submit-button">
+                      <button class="btn btn-common" id="form-submit" type="submit">Send Message</button>
+                      <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                      <div class="clearfix"></div> 
+                    </div>
+                  </div>
+                </div>            
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-sm-12">
+            <div class="contact-right-area wow fadeIn">
+              <h2>Get In Touch</h2>
+              <div class="contact-right">
+                <div class="single-contact">
+                  <div class="contact-icon">
+                    <i class="lni-map-marker"></i>
+                  </div>
+                  <p>Skopje, Macedonia</p>
+                </div>
+                <div class="single-contact">
+                  <div class="contact-icon">
+                    <i class="lni-envelope"></i>
+                  </div>
+                  <p><a href="#">email@gmail.com</a></p>
+                  <p><a href="#">tomsaulnier@gmail.com</a></p>
+                </div>
+                <div class="single-contact">
+                  <div class="contact-icon">
+                    <i class="lni-phone-handset"></i>
+                  </div>
+                  <p><a href="#">+42 374 5967</a></p>
+                  <p><a href="#">+99 123 5967</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </section>
+    <!-- Contact Section End -->
+  
+    <!-- Map Section Start -->
+    <div class="map">
+      <div class="containre-fulid">
+        <div id="conatiner-map"></div> 
+      </div>
+    </div>
+    <!-- Map Section End -->
+
+	  <!-- Footer Section Start -->
+    <footer id="footer" class="footer-area section-padding">
+      <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
+              <div class="footer-logo mb-3">
+                <img src="assets/img/logo.png" alt="">
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam excepturi quasi, ipsam voluptatem.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
+              <h3 class="footer-titel">Company</h3>
+              <ul>
+                <li><a href="#">Press Releases</a></li>
+                <li><a href="#">Mission</a></li>
+                <li><a href="#">Strategy</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
+              <h3 class="footer-titel">About</h3>
+              <ul>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Clients</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.8s">
+              <h3 class="footer-titel">Find us on</h3>
+              <div class="social-icon">
+  	            <a class="facebook" href="#"><i class="lni-facebook-filled"></i></a>
+  	            <a class="twitter" href="#"><i class="lni-twitter-filled"></i></a>
+  	            <a class="instagram" href="#"><i class="lni-instagram-filled"></i></a>
+  	            <a class="linkedin" href="#"><i class="lni-linkedin-filled"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>     
+    </footer> 
+    <!-- Footer Section End -->
+
+    <section id="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Copyright © 2018 UIdeck All Right Reserved</p>
+          </div>
+        </div>
+      </div>
+    </section>   
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+    	<i class="lni-arrow-up"></i>
+    </a>
     
-	<div id="footer">
-		<div class="content">
-        	<div class="copyright">
-        		Copyright &copy; 2011 MARSHMALLOW MACHINE. All rights reserved.
-        	</div>
-		</div><!--content-->           
-	</div><!--footer-->    
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
-	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
-	<script type="text/javascript" src="js/jquery.hashslider.js"></script>
-	<script language="javascript" src="js/shCore.js"></script>
-	<script language="javascript" src="js/shBrushCSharp.js"></script>
-	<script language="javascript" src="js/shBrushXml.js"></script>
-	<script language="javascript" src="js/shBrushJScript.js"></script>
-	<script language="javascript" src="js/shBrushCpp.js"></script>
-	<script language="javascript" src="js/shBrushCSharp.js"></script>
-	<script language="javascript" src="js/shBrushPython.js"></script>
-	<script type="text/javascript">
-    	function suppress(value, digits) {
-    		return ("0"*digits+value.toString()).slice(-digits);
-    	}
-		
-		function getDateStr(d) {
-		    var year = d.getYear();
-    		if(year<1000){
-    			year+=1900;
-    		}
-    		var dateStr = year+"-"+suppress(d.getMonth(),2)+"-"+suppress(d.getDate(),2);
-    		return dateStr;
-    	}
-    	
-    	function buildBlogEntryElement(entry) {
-		    var title = entry.title.$t;
-		    var published = entry.published.$t.substring(0, 10);
-		    var content = entry.content.$t;
-		    var href = entry.link[entry.link.length-1].href;
-		    // replace <br /> to \n within pre tag.
-		    content = content.replace(/(\<pre.*?\>.+?\<\/pre\>)/g, function(){
-		    	return RegExp.$1.replace(/\<br \/\>/g, "\n");
-		    });
-    		var html  = "<li>";
-    			html += "	<div class=\"entry\">";
-	    		html += "		<span class=\"title\"><a href=\""+href+"\">"+title+"</a></span><br />";
-	    		html += "		<span class=\"published\">"+published+"</span><br /><br />";
-	    		html += "		<div class=\"body\"><div><p>"+content+"</p></div></div>";
-				html += "	</div>";
-				html += "</li>";
-			return html;
-    	}
-    	
-		$(function(){
-	    	var cur_menu;
-	
-			/* build menu navigation */
-			$("#menu li:first").addClass("selected");
-			cur_menu = $("#container .page:first");			
-
-			$("#menu li").bind("click",function(e){
-		  		$("#menu li").removeClass("selected");
-	  			$(this).addClass("selected");
- 		  		
-	 		  	var href = $(this).children("a").attr("href");
-
-				cur_menu.fadeOut("fast");
- 				cur_menu = $(href);
- 				cur_menu.fadeIn("fast");
- 				
- 				// ignore scrolling
- 		  		e.preventDefault();
- 		  	});
- 		  	
- 		  	$(".work .description").jScrollPane(); 	
-
- 		  	/* append blog entry */
-			var blog_elem = $("#blog .entries>ul");
-    		var blog_url = "http://atsusy.blogspot.com/feeds/posts/default?alt=json-in-script&callback=?";
- 			
- 			$.getJSON(blog_url, function(data){
-				for(var i = 0; i < data.feed.entry.length; i++){
-				    blog_elem.append(buildBlogEntryElement(data.feed.entry[i]));
-				    $("#blog>ul.indexes").append("<li></li>");
-				}
-				$('#blog>ul.indexes>li:first-child').addClass('active');
-				
-		    	/* build code syntax */
-				dp.SyntaxHighlighter.ClipboardSwf = "flash/clipboard.swf";
-	 			dp.SyntaxHighlighter.HighlightAll("code"); 		
- 				
- 				/* build blog slider */
- 				var entryWidth = $("#blog .entries").width();
- 				var entryCount = $("#blog .entry").size();
- 				var entryIndex = 0;
- 				 
- 				function entryIndexChanged() {
- 					if(entryIndex == 0){
- 						$("#blog .prev").animate({ opacity:0 });
- 						if(entryCount > 1){
- 							$("#blog .next").animate({ opacity:1 });
- 						}
-	 				}
-	 				else if(entryIndex == entryCount - 1){
- 						$("#blog .next").animate({ opacity:0 });
- 						if(entryCount > 1){
- 							$("#blog .prev").animate({ opacity:1 });
- 						}
-	 				}
-	 				else if(entryCount > 1){
-						$("#blog .next").animate({ opacity:1 });
-						$("#blog .prev").animate({ opacity:1 });
-	 				}
-	 				
-	 				$("#blog>ul.indexes>li").removeClass("active");
-	 				$("#blog>ul.indexes>li:nth-child("+(entryIndex+1)+")").addClass('active');
- 				}
- 				entryIndexChanged();
- 				
- 				$("#blog .entries>ul").css("width", entryWidth * entryCount);				
- 				$("#blog .entries>li").css("width", entryWidth);	
- 				
- 				$("#blog .prev").bind("click",function(e){
- 					if(entryIndex > 0){
-	 					entryIndex = entryIndex - 1;
-	 					entryIndexChanged();
-						$('#blog .entries>ul').animate({ left: '+='+entryWidth }, 400, 'swing');
- 					}
- 				});
- 				
- 				$("#blog .next").bind("click",function(e){
- 					if(entryIndex < entryCount - 1){
-	 					entryIndex = entryIndex + 1;
-	 					entryIndexChanged();
-						$('#blog .entries>ul').animate({ left: '-='+entryWidth }, 400, 'swing');
- 					}
- 				});
- 				
- 				$("#blog>ul.indexes>li").bind("click",function(e){
-					entryIndex = $(this).index();
-					$('#blog .entries>ul').animate({ left: entryIndex * -entryWidth }, 400, 'swing');
-					entryIndexChanged();
- 				});
- 				
- 				$("#blog>ul.indexes>li").bind("mouseenter",function(e){
-					$("#blog>.title").stop(true, true); 					
- 					$("#blog>.title").animate({ opacity : 1.0 });
- 					
- 					var nth = $(this).index() + 1;
- 					var title = $("#blog .entries>ul>li:nth-child("+nth+")>div>.title")[0];
-	 				$("#blog>.title").text(title.innerText);
- 				});
- 				$("#blog>ul.indexes>li").bind("mouseout",function(e){
- 					$("#blog>.title").animate({ opacity : 0.0 });
- 				});
- 				
- 				$("#blog .body").jScrollPane();
-			}); 			
-		});
-	</script>
-</body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.min.js"></script>
+    <script src="assets/js/map.js"></script>
+    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
+      
+  </body>
 </html>
