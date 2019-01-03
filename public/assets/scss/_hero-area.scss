@@ -1,0 +1,26 @@
+/* ==========================================================================
+3. Hero Area
+========================================================================== */
+#hero-area{
+	color: #fff;
+	overflow: hidden;
+	position: relative;
+	background: #f8f9fb;
+	.contents{
+		padding: 170px 0px 50px;
+		h5{
+			font-size: 50px;
+		}
+		.head-title{	
+			color: #585b60;
+		    font-size: 34px;
+		    line-height: 48px;
+		    font-weight: 700;
+		    margin-bottom: 30px;
+		}
+	}
+}
+
+.sloder-img{
+	background: #34363a;
+}
